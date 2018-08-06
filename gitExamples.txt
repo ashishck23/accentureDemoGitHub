@@ -1,0 +1,176 @@
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~
+$ cd Documents/GitHub/accentureDemoGitHub/
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        f2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git add -m'file 2'
+error: unknown switch `m'
+usage: git add [<options>] [--] <pathspec>...
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git add f2.txt
+warning: LF will be replaced by CRLF in f2.txt.
+The file will have its original line endings in your working directory.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git commit -m'file 2'
+[master c955165] file 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 f2.txt
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git checkout -b feature
+Switched to a new branch 'feature'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git log statuis
+fatal: ambiguous argument 'statuis': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git log status
+fatal: ambiguous argument 'status': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git log status
+fatal: ambiguous argument 'status': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git log
+commit c9551656de7ed67c30ef99d871b76d519e32f310 (HEAD -> feature, master)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ ^C
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+
+
+
+
+
+
+
+
+
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git rebase feature
+Current branch master is up to date.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ echo 'f4 create' > f4.txt
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ add f4.txt
+bash: add: command not found
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git add f4.txt
+warning: LF will be replaced by CRLF in f4.txt.
+The file will have its original line endings in your working directory.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git commit -m'f4 file add'
+[feature 40b9019] f4 file add
+ 1 file changed, 1 insertion(+)
+ create mode 100644 f4.txt
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (feature)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git rebase feature
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to feature.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
