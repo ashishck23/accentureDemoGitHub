@@ -1,9 +1,7 @@
 Hello World
 Adding test line
 
-<<<<<<< HEAD
-
 local edit test1
-=======
+
 online edit test1
->>>>>>> 2e38449d3b2aeb90e20a32b6d263a29d86e315b0
+
