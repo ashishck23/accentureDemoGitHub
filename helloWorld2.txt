@@ -5,3 +5,9 @@ local edit test1
 test merge
 online edit test1
 
+
+
+local edit test1
+online edit test1
+test merge online change
+
