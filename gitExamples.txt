@@ -174,3 +174,14 @@ Fast-forwarded master to feature.
 Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
 $
 
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git remote add origin https://github.com/ashishck23/accentureDemoGitHub.git
+fatal: remote origin already exists.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git push origin master
+Everything up-to-date
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
