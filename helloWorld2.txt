@@ -4,3 +4,4 @@ Adding test line
 
 local edit test1
 online edit test1
+test merge online change
