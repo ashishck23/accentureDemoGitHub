@@ -184,4 +184,112 @@ Everything up-to-date
 
 Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
 $
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git commit
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+
+
+
+
+
+
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ echo 'adding line loacly' > f2.txt
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git add f2.txt
+warning: LF will be replaced by CRLF in f2.txt.
+The file will have its original line endings in your working directory.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git commit -m'f2 locat change'
+[master bbdce10] f2 locat change
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git push origin master
+To https://github.com/ashishck23/accentureDemoGitHub.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ashishck23/accentureDemoGitHub.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+Merge branch 'master' of https://github.com/ashishck23/accentureDemoGitHub
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+C:/Users/Administrator/Documents/GitHub/accentureDemoGitHub/.git/MERGE_MSG [unix] (17:34 06/08/2018)                                                                                     1,1 All
+"C:/Users/Administrator/Documents/GitHub/accentureDemoGitHub/.git/MERGE_MSG" [unix] 7L, 302C
+
+
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ashishck23/accentureDemoGitHub
+ * branch            master     -> FETCH_HEAD
+   8aeedd4..1679e5c  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ f4.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git add gitExamples.txt
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$ git push origin master
+Enumerating objects: 14, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 954 bytes | 477.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/ashishck23/accentureDemoGitHub.git
+   1679e5c..5093026  master -> master
+
+Administrator@DESKTOP-HVM3NAK MINGW64 ~/Documents/GitHub/accentureDemoGitHub (master)
+$
+
+
+
+
 
