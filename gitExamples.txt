@@ -297,6 +297,32 @@ $
 
 
 
+------------------ ngork
+ngrok by @inconshreveable                                                                               (Ctrl+C to quit)
 
+Session Status                online
+Session Expires               7 hours, 36 minutes
+Version                       2.2.8
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://8fb181bf.ngrok.io -> localhost:8080
+Forwarding                    https://8fb181bf.ngrok.io -> localhost:8080
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              8       0       0.00    0.00    8.30    10.34
+
+HTTP Requests
+-------------
+
+POST /github-webhook/                                             200 OK
+POST /github-webhook/                                             200 OK
+GET  /static/f393a0fd/images/top-sticker-bottom-edge.png          200 OK
+GET  /static/f393a0fd/favicon.ico                                 200 OK
+GET  /adjuncts/f393a0fd/lib/layout/menu_right_arrow2.png          200 OK
+GET  /adjuncts/f393a0fd/lib/layout/menu_down_arrow.png            200 OK
+GET  /static/f393a0fd/images/16x16/search.png                     200 OK
+GET  /static/f393a0fd/assets/jquery-detached/jsmodules/jquery2.js 200 OK
+GET  /static/f393a0fd/images/16x16/help.png                       200 OK
+GET  /adjuncts/f393a0fd/lib/layout/breadcrumbs.js                 200 OK
 
 
