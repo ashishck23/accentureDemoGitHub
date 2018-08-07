@@ -326,3 +326,15 @@ GET  /static/f393a0fd/images/16x16/help.png                       200 OK
 GET  /adjuncts/f393a0fd/lib/layout/breadcrumbs.js                 200 OK
 
 
+
+Agent win10_local_slave_agent (win10_local_slave_agent)
+Connect agent to Jenkins one of these ways:
+
+launch agent Launch agent from browser
+
+Run from agent command line:
+
+java -jar agent.jar -jnlpUrl http://localhost:8080/computer/win10_local_slave_agent/slave-agent.jnlp -secret 41ea8ae0050591d49e1f2b867728adea24ddd7d2d40247fff4bd8d8dfc7dc0eb -workDir "C:\Users\Administrator\Documents\local_slave_agent"
+Projects tied to win10_local_slave_agent
+
+
